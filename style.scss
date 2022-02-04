@@ -7,14 +7,12 @@
 
 table {
   margin: 50px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 td {
   height: 100px;
   width: 100px;
+  padding: auto;
   background-color: $darkSquare;
   align-content: center;
 }
@@ -27,9 +25,10 @@ td {
   height: 30px;
   width: 30px;
   padding: 20px;
+  margin: 0 auto;
   border: 2px solid white;
   border-radius: 50px;
-  // cursor: pointer;
+  cursor: grab;
 }
 
 .light {
@@ -41,8 +40,6 @@ td {
 }
 
 .dragging {
-  opacity: 0.9;
+  opacity: 0.5;
+  cursor: grab;
 }
-
-// .square1 {
-//   background-color: b

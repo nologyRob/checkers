@@ -1,6 +1,6 @@
 "use strict";
 
-// DRAG MOVEMENT
+// // DRAG MOVEMENT
 var pieces = document.querySelectorAll(".piece");
 var squaresOnBoard = document.querySelectorAll(".square");
 pieces.forEach(function (piece) {

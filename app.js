@@ -1,4 +1,4 @@
-// DRAG MOVEMENT
+// // DRAG MOVEMENT
 
 const pieces = document.querySelectorAll(".piece");
 const squaresOnBoard = document.querySelectorAll(".square");
