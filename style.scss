@@ -6,50 +6,49 @@
 }
 
 table {
-  margin: 60px;
-  text-align: center;
+  margin: 50px auto;
 }
+
 td {
   height: 100px;
   width: 100px;
   background-color: $darkSquare;
-  //   margin: 0 auto;
-  //   align-items: center;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .no-piece {
   background-color: $lightSquare;
 }
 
-// .piece {
-//   height: 40px;
-//   width: 40px;
-//   padding: 20px;
-//   background-color: blue;
-//   &__light {
-//     background-color: $lightPiece;
-//   }
-
-//   &__dark {
-//     background-color: $darkPiece;
-//   }}
-
-.piece__light {
-  background-color: $lightPiece;
+.piece {
   height: 30px;
   width: 30px;
   padding: 20px;
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 50px;
+  // cursor: pointer;
 }
 
-.piece__dark {
+.light {
+  background-color: $lightPiece;
+}
+
+.dark {
   background-color: $darkPiece;
-  height: 30px;
-  width: 30px;
-  padding: 20px;
-  border: 3px solid white;
-  border-radius: 50px;
+}
+
+.drag {
+  background-color: red;
+  cursor: pointer;
+  // z-index: 1;
+}
+
+.dragging {
+  opacity: 0.9;
+}
+
+#one {
+  background-color: red;
+}
+#nine {
+  background-color: red;
 }

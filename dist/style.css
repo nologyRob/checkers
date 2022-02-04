@@ -4,36 +4,48 @@
 }
 
 table {
-  margin: 60px;
-  text-align: center;
+  margin: 50px auto;
 }
 
 td {
   height: 100px;
   width: 100px;
   background-color: #646f58;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .no-piece {
   background-color: #7d8570;
 }
 
-.piece__light {
-  background-color: #afbe8f;
+.piece {
   height: 30px;
   width: 30px;
   padding: 20px;
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 50px;
 }
 
-.piece__dark {
+.light {
+  background-color: #afbe8f;
+}
+
+.dark {
   background-color: #504b3a;
-  height: 30px;
-  width: 30px;
-  padding: 20px;
-  border: 3px solid white;
-  border-radius: 50px;
+}
+
+.drag {
+  background-color: red;
+  cursor: pointer;
+}
+
+.dragging {
+  opacity: 0.9;
+}
+
+#one {
+  background-color: red;
+}
+
+#nine {
+  background-color: red;
 }
