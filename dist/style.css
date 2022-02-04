@@ -5,12 +5,16 @@
 
 table {
   margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 td {
   height: 100px;
   width: 100px;
   background-color: #646f58;
+  align-content: center;
 }
 
 .no-piece {
@@ -26,26 +30,13 @@ td {
 }
 
 .light {
-  background-color: #afbe8f;
+  background-color: #a44a3f;
 }
 
 .dark {
   background-color: #504b3a;
 }
 
-.drag {
-  background-color: red;
-  cursor: pointer;
-}
-
 .dragging {
   opacity: 0.9;
-}
-
-#one {
-  background-color: red;
-}
-
-#nine {
-  background-color: red;
 }

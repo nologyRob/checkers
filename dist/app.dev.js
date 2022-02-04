@@ -1,9 +1,8 @@
 "use strict";
 
 // DRAG MOVEMENT
-var pieces = document.querySelectorAll(".piece"); // const squaresOnBoard = document.querySelectorAll(".square");
-
-var squaresOnBoard = document.querySelectorAll("td");
+var pieces = document.querySelectorAll(".piece");
+var squaresOnBoard = document.querySelectorAll(".square");
 pieces.forEach(function (piece) {
   piece.addEventListener("dragstart", function () {
     piece.classList.add("dragging");

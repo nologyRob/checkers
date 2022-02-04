@@ -7,12 +7,16 @@
 
 table {
   margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 td {
   height: 100px;
   width: 100px;
   background-color: $darkSquare;
+  align-content: center;
 }
 
 .no-piece {
@@ -36,19 +40,9 @@ td {
   background-color: $darkPiece;
 }
 
-.drag {
-  background-color: red;
-  cursor: pointer;
-  // z-index: 1;
-}
-
 .dragging {
   opacity: 0.9;
 }
 
-#one {
-  background-color: red;
-}
-#nine {
-  background-color: red;
-}
+// .square1 {
+//   background-color: b

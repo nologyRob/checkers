@@ -1,8 +1,7 @@
 // DRAG MOVEMENT
 
 const pieces = document.querySelectorAll(".piece");
-// const squaresOnBoard = document.querySelectorAll(".square");
-const squaresOnBoard = document.querySelectorAll("td");
+const squaresOnBoard = document.querySelectorAll(".square");
 
 pieces.forEach((piece) => {
   piece.addEventListener("dragstart", () => {
