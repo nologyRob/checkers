@@ -7,7 +7,7 @@ const board = document.querySelectorAll(".board");
 pieces.forEach((piece) => {
   piece.addEventListener("dragstart", (event) => {
     // event.dataTransfer.setData("Text", event.target.id);
-    console.log(event.target.parentNode.id);
+    console.log(event.target.parentNode.id); /*targeting originating div*/
     piece.classList.add("dragging");
   });
   piece.addEventListener("dragend", (event) => {
