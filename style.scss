@@ -7,13 +7,49 @@
 
 table {
   margin: 60px;
+  text-align: center;
 }
 td {
   height: 100px;
   width: 100px;
   background-color: $darkSquare;
+  //   margin: 0 auto;
+  //   align-items: center;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .no-piece {
   background-color: $lightSquare;
+}
+
+// .piece {
+//   height: 40px;
+//   width: 40px;
+//   padding: 20px;
+//   background-color: blue;
+//   &__light {
+//     background-color: $lightPiece;
+//   }
+
+//   &__dark {
+//     background-color: $darkPiece;
+//   }}
+
+.piece__light {
+  background-color: $lightPiece;
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 50px;
+}
+
+.piece__dark {
+  background-color: $darkPiece;
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 50px;
 }
